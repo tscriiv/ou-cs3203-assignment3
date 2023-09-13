@@ -27,11 +27,12 @@ def reverseNums(numbers):
 
 def main():
     print("stuff")
-    numbersstr = input("Type some numbers separated by commas ").split(',')
+    numbersstr = input("Type numbers separated by commas ").split(',')
     numbers = []
     for i in numbersstr:
         numbers.append(int(i))
 
+    
     addNums(numbers)
     multiplyNums(numbers)
     reverseNums(numbers)

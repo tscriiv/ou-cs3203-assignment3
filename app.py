@@ -4,13 +4,28 @@ def addNums(numbers):
     
     sum = 0
     for i in numbers:
-        sum += numbers[i]
+        sum += i
 
-    return sum
+    print("Sum: " + str(sum))
 
 def multiplyNums(numbers):
-    multiTotal = 0
+    multiTotal = 1
     for i in numbers: 
-        multiTotal *= numbers[i]
+        multiTotal *= i
 
-    return multiTotal
+    print("Product: " + str(multiTotal))
+
+def main():
+    print("stuff")
+    numbersstr = input("Type some numbers separated by commas ").split(',')
+    numbers = []
+    for i in numbersstr:
+        numbers.append(int(i))
+
+    addNums(numbers)
+    multiplyNums(numbers)
+    
+    
+if __name__ == "__main__": main()
+
+        

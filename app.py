@@ -24,7 +24,7 @@ def main():
 
     addNums(numbers)
     multiplyNums(numbers)
-    
+    #I am adding this comment in order to fulfill part 10
     
 if __name__ == "__main__": main()
 

@@ -7,6 +7,7 @@ def addNums(numbers):
         sum += i
 
     print("Sum: " + str(sum))
+    return sum
 
 def multiplyNums(numbers):
     multiTotal = 1
@@ -14,6 +15,15 @@ def multiplyNums(numbers):
         multiTotal *= i
 
     print("Product: " + str(multiTotal))
+    return multiTotal
+
+def reverseNums(numbers):
+    reversed_nums = list(reversed(numbers))
+
+    for i in reversed_nums:
+        print(str(i) + " " ,end="")
+    return reversed_nums
+
 
 def main():
     print("stuff")
@@ -24,6 +34,7 @@ def main():
 
     addNums(numbers)
     multiplyNums(numbers)
+    reverseNums(numbers)
     
     
 if __name__ == "__main__": main()

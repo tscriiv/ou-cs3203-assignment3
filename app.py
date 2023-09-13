@@ -35,8 +35,11 @@ def main():
     
     addNums(numbers)
     multiplyNums(numbers)
+<<<<<<< HEAD
     reverseNums(numbers)
     #I am adding this comment in order to fulfill part 10
+=======
+>>>>>>> 00ebebf7661911669db9ce8d379a18b8ca9ed330
     #I am adding this comment in order to fulfill part 10
     
 if __name__ == "__main__": main()
